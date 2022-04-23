@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 18px;
+    margin: 0;
+    color: #444;
+}
+
+h1 {
+    display: grid;
+    grid-column: 2 / 3;
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    word-spacing: 10px;
+    float: right;
+    margin-top: -80px;
+    margin-left: 40px;
+    align-content: center;
+    justify-content: center;
+    text-shadow: 0.2em 0.2em 0.3em black;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    word-spacing: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-shadow: 0.2em 0.2em 0.3em black;
+}
+
+img {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    width: 15%;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: left;
+}
+
+footer {
+    display: grid;
+    word-spacing: 10px;
+    background-color: rgb(87, 64, 64);
+    margin-top: 20px;
+    border-radius: 25px;
+    border-style: solid;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    box-shadow: 10px 10px 10px 10px black;
+}
+
+a:link {
+    color: blue
+}
+
+header {
+    display: grid;
+    background-color: rgb(87, 64, 64);
+    margin-top: 20px;
+    border-radius: 25px;
+    border-style: solid;
+    align-items: justify;
+    justify-items: center;
+    color: white;
+    box-shadow: 10px 10px 10px 10px black;
+    ;
+}
+
+hr.rounded {
+    border-bottom: 3px solid black;
+    border-radius: 5px;
+}
+
+h3 {
+    font-family: "Merriweather", serif;
+    font-size: 18px;
+    font-style: italic;
+    word-spacing: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-shadow: 0.2em 0.2em 0.3em black;
+}
