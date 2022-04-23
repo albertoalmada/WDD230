@@ -1,0 +1,1 @@
+const lastDate = getDate() + getMonth() + getFullYear()
