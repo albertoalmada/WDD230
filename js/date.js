@@ -1,1 +1,1 @@
-document.querySelector('lastDate').innerHTML = "lastDate;"
+document.querySelector('lastDate').innerHTML = "lastDate";
