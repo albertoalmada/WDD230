@@ -1,2 +1,1 @@
-const date = getDate() + getMonth() + getFullYear();
-document.getElementById('lastDate').textContent = date;
+document.querySelector('lastDate').innerHTML = "lastDate;"
