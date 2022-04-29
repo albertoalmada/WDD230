@@ -5,7 +5,8 @@ body {
     font-family: "Open Sans", sans-serif;
     padding: 5px 25px;
     font-size: 18px;
-    margin: 0;
+    align-content: center;
+    align-items: center;
     color: #444;
 }
 
@@ -13,9 +14,11 @@ h1 {
     font-family: "Merriweather", serif;
     font-size: 30px;
     word-spacing: 10px;
-    margin-top: -80px;
-    margin-left: 40px;
-    align-content: center;
+    margin-top: -110px;
+    margin-left: auto;
+    margin-bottom: 80px;
+    padding-left: 150px;
+    text-align: center;
     justify-content: center;
     text-shadow: 0.2em 0.2em 0.3em black;
 }
@@ -25,18 +28,19 @@ h2 {
     font-size: 24px;
     word-spacing: 10px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 0 auto;
     text-shadow: 0.2em 0.2em 0.3em black;
+    align-items: center;
 }
 
 img {
-    width: 10%;
-    height: auto;
     border-radius: 25px;
     box-shadow: 5px 5px 10px black;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: -10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
@@ -61,11 +65,9 @@ header {
     margin-top: 20px;
     border-radius: 25px;
     border-style: solid;
-    align-items: justify;
-    justify-items: center;
     color: white;
     box-shadow: 10px 10px 10px 10px black;
-    ;
+    align-items: center;
 }
 
 hr.rounded {
