@@ -10,7 +10,7 @@ body {
     color: #444;
 }
 
-.initial_data  {
+.initialData  {
     display:grid;
     grid-template-columns: 200px 1 fr;
     align-items: center;
@@ -43,8 +43,8 @@ img {
     margin-top: 20px;
     /*margin-bottom: 10px;*/
     margin-left: 10px;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
 }
 
 footer {
