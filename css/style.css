@@ -10,16 +10,21 @@ body {
     color: #444;
 }
 
+.initial_data  {
+    display:grid;
+    grid-template-columns: 200px 1 fr;
+    align-items: center;
+}
 h1 {
     font-family: "Merriweather", serif;
     font-size: 30px;
     word-spacing: 10px;
-    margin-top: -110px;
+    /*margin-top: -110px;
     margin-left: auto;
-    margin-bottom: 80px;
+    margin-bottom: 80px;*/
     padding-left: 150px;
-    text-align: center;
-    justify-content: center;
+    /*text-align: center;*/
+    /*justify-content: center;*/
     text-shadow: 0.2em 0.2em 0.3em black;
 }
 
@@ -36,14 +41,13 @@ img {
     border-radius: 25px;
     box-shadow: 5px 5px 10px black;
     margin-top: 20px;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     margin-left: 10px;
     align-items: center;
     justify-content: center;
 }
 
 footer {
-    display: grid;
     word-spacing: 10px;
     background-color: rgb(87, 64, 64);
     margin-top: 20px;
@@ -74,12 +78,3 @@ hr.rounded {
     border-radius: 5px;
 }
 
-h3 {
-    font-family: "Merriweather", serif;
-    font-size: 18px;
-    font-style: italic;
-    word-spacing: 10px;
-    margin-top: 20px;
-    margin-left: 20px;
-    text-shadow: 0.2em 0.2em 0.3em black;
-}
