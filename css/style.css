@@ -16,16 +16,15 @@
         
         .initialData {
             display: grid;
-            grid-template-columns: 200px 1fr;
+            grid-template-columns: 160px 1fr;
             align-items: center;
+            justify-content: center;
         }
         
         h1 {
             font-family: "Merriweather", serif;
             font-size: 30px;
             word-spacing: 10px;
-            margin-top: -110px;
-            margin-bottom: 80px;
             padding-left: 150px;
             text-align: center;
             justify-content: center;
@@ -45,7 +44,8 @@
         img {
             border-radius: 25px;
             box-shadow: 5px 5px 10px black;
-            margin-top: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             margin-left: 10px;
             align-items: center;
             justify-content: center;
@@ -79,7 +79,7 @@
             border-style: solid;
             color: white;
             box-shadow: 10px 10px 10px 10px black;
-            /*align-items: center;*/
+            align-items: center;
         }
         
         hr.rounded {
