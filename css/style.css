@@ -10,11 +10,13 @@
             color: #444;
             text-align: center;
             justify-content: center;
+            max-width: 800px;
+            min-width: 464px;
         }
         
         .initialData {
             display: grid;
-            grid-template-columns: 200px 1 fr;
+            grid-template-columns: 200px 1fr;
             align-items: center;
         }
         
@@ -43,7 +45,7 @@
         img {
             border-radius: 25px;
             box-shadow: 5px 5px 10px black;
-            margin-top: 20px;
+            margin-top: 12px;
             margin-left: 10px;
             align-items: center;
             justify-content: center;
