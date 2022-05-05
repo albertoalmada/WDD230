@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    body {
+        min-width: 32.5em;
+    }
+    header {
+        min-width: 38em;
+    }
+    footer {
+        min-width: 38em;
+        box-shadow: 10px 10px 10px 10px black;
+    }
+}

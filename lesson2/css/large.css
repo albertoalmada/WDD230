@@ -1,0 +1,17 @@
+@media only screen and (min-width: 64em) {
+    body {
+        min-width: 64em;
+    }
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    img {
+        max-width: 300px;
+    }
+    footer {
+        box-shadow: 10px 10px 10px 10px black;
+    }
+}
+
+
+}
