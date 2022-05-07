@@ -1,26 +1,19 @@
 body {
+    display: grid;
     background-color: white;
-    font-family: "Open Sans", sans-serif;
     padding: 5px 25px;
     font-size: 18px;
-    align-content: center;
-    align-items: center;
     color: #444;
     text-align: center;
-    justify-content: center;
     max-width: 800px;
     min-width: 400px;
+    margin: 0 auto;
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-.initialData {
-    display: grid;
-    grid-template-columns: 160px 1fr;
-    align-items: center;
-    justify-content: center;
-}
 
+}
 h1 {
     font-family: "Merriweather", serif;
     font-size: 30px;
@@ -29,7 +22,6 @@ h1 {
     justify-content: center;
     text-shadow: 0.2em 0.2em 0.3em black;
 }
-
 h2 {
     font-family: "Merriweather", serif;
     font-size: 24px;
@@ -39,7 +31,6 @@ h2 {
     align-items: center;
     text-align: center;
 }
-
 img {
     border-radius: 25px;
     box-shadow: 5px 5px 10px black;
@@ -49,12 +40,10 @@ img {
     align-items: center;
     justify-content: center;
 }
-
 main {
     text-align: left;
     justify-content: center;
 }
-
 footer {
     word-spacing: 10px;
     background-color: rgb(87, 64, 64);
@@ -66,21 +55,20 @@ footer {
     color: white;
     box-shadow: 10px 10px 10px 10px black;
 }
-
 a:link {
     color: blue
 }
-
 header {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    align-items: center;
     background-color: rgb(87, 64, 64);
     margin-top: 20px;
     border-radius: 25px;
     border-style: solid;
     color: white;
     box-shadow: 10px 10px 10px 10px black;
-    align-items: center;
 }
-
 hr.rounded {
     border-bottom: 3px solid black;
     border-radius: 5px;
