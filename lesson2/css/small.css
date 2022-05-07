@@ -18,7 +18,7 @@ header {
     border-style: solid;
     color: white;
     box-shadow: 10px 10px 10px 10px black;
-    align-items: center;
+    margin: 0 auto;
     min-width: 300px;
 }
 
@@ -51,8 +51,7 @@ h3 {
 
 img {
     max-width: 270px;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -77,8 +76,7 @@ footer {
     margin-top: 20px;
     border-radius: 25px;
     border-style: solid;
-    align-items: center;
-    justify-items: center;
+    margin: 0 auto;
     color: white;
 }
 
