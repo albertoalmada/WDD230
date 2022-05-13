@@ -3,8 +3,6 @@
                 padding: 5px 25px;
                 font-size: 18px;
                 color: #444;
-                text-align: center;
-                justify-content: center;
                 /*max-width: 350px;*/
                 font-family: 'Merriweather Sans', sans-serif;
                 font-family: 'Open Sans', sans-serif;
@@ -13,11 +11,10 @@
             header {
                 display: grid;
                 background-color: rgb(87, 64, 64);
-                margin-top: 20px;
+                margin: 0 auto;
                 /*border-radius: 25px;*/
                 border-style: solid;
                 color: white;
-                box-shadow: 10px 10px 10px 10px black;
                 align-items: center;
                 min-width: 300px;
             }
@@ -50,38 +47,47 @@
             }
             
             img {
-                max-width: 270px;
-                align-items: center;
-                justify-content: center;
-                padding: 10px;
+                display: block;
+                margin: 0 auto;
             }
             
             main {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-            
-            section {
                 border: solid;
                 margin: 1rem;
                 padding: 10px;
                 border-radius: 25px;
                 background-color: rgb(87, 227, 220);
-                text-align: left;
-                align-items: center;
             }
             
             footer {
                 word-spacing: 10px;
                 background-color: rgb(87, 64, 64);
                 margin-top: 20px;
-                border-radius: 25px;
                 border-style: solid;
-                align-items: center;
-                justify-items: center;
                 color: white;
+                text-align: center;
+                justify-content: center;
+            }
+            
+            nav {
+                line-height: 1em;
+                text-align: right;
+                font-size: 1em;
+            }
+            
+            nav ul {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+                list-style: none;
+                text-align: center;
+                text-decoration: none;
             }
             
             a:link {
-                color: blue
+                color: white;
+                text-decoration: none;
+            }
+            
+            a:visited {
+                color: red;
             }
