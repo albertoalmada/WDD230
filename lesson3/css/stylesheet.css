@@ -35,17 +35,15 @@ h1 {
 h2 {
     font-size: 24px;
     word-spacing: 10px;
-    padding: 10px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 20px;
     word-spacing: 10px;
-    align-items: center;
-    text-align: center;
 }
 
 p {
+    font-size: 18px;
     padding: 10px;
 }
 
@@ -62,6 +60,8 @@ main {
 }
 
 footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     word-spacing: 10px;
     background-color: rgb(87, 64, 64);
     margin-top: 20px;
