@@ -74,7 +74,6 @@ nav {
     line-height: 1rem;
     font-size: 1rem;
     background-color: #7798AB;
-    color: #ffffff;
     border-radius: 25px;
     align-items: center;
     text-align: center;
@@ -100,7 +99,7 @@ a:link {
 }
 
 a:visited {
-    color: blue;
+    color: #000000;
 }
 
 .central {
