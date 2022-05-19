@@ -73,10 +73,11 @@ footer {
 nav {
     line-height: 1rem;
     font-size: 1rem;
-    background-color: #ffffff;
+    background-color: #f2eaea;
     border-radius: 25px;
     align-items: center;
     text-align: center;
+    margin: 1rem;
 }
 
 nav ul {
