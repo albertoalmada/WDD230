@@ -52,7 +52,7 @@ img {
 
 main {
     border: solid;
-    margin: 1rem;
+    margin: 10px;
     padding: 10px;
     border-radius: 25px;
     background-color: rgb(87, 227, 220);
@@ -71,11 +71,12 @@ footer {
 }
 
 nav {
-    line-height: 1em;
-    text-align: center;
-    font-size: 1em;
+    line-height: 1rem;
+    font-size: 1rem;
     background-color: #ffffff;
     border-radius: 25px;
+    align-items: center;
+    text-align: center;
 }
 
 nav ul {
@@ -83,6 +84,8 @@ nav ul {
     list-style: none;
     text-align: center;
     text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 li {
