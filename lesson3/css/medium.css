@@ -1,15 +1,12 @@
 @media only screen and (min-width: 32.5em) {
-    body {
+    body header footer {
         min-width: 32.5em;
     }
     nav ul {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(3em, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
         list-style: none;
         text-align: center;
         text-decoration: none;
-    }
-    header footer {
-        min-width: 32.5em;
     }
 }
