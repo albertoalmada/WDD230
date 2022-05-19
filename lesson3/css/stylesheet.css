@@ -78,11 +78,16 @@ nav {
 }
 
 nav ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(4em, 1fr));
+    display: block;
     list-style: none;
     text-align: center;
     text-decoration: none;
+    padding: 1em;
+    margin: 1em;
+}
+
+li {
+    padding: 1em;
 }
 
 a:link {
@@ -92,4 +97,57 @@ a:link {
 
 a:visited {
     color: red;
+}
+
+.color_1 {
+    background-color: #E8DBC9;
+}
+
+.color_2 {
+    background-color: #0D1B1E;
+    color: #ffffff;
+}
+
+.color_3 {
+    background-color: #7798AB;
+    color: #ffffff;
+}
+
+.color_4 {
+    background-color: #C3CBC5;
+    color: #000000;
+}
+
+.colors {
+    background-color: #ffffff;
+}
+
+.paragraph_1 {
+    font-size: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+.paragraph_2 {
+    font-size: 24px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+.paragraph_3 {
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+.paragraph_4 {
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
+}
+
+.paragraph_5 {
+    font-size: 16px;
+    font-family: 'Open-sans', sans-serif;
+    text-align: center;
 }
