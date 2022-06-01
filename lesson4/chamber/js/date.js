@@ -6,5 +6,8 @@ document.querySelector('#lastUpdate').innerHTML = `Minersville Chamber of Commer
 WDD 230 Project |<br> Last Updated: ${document.lastModified}`;
 
 function toggleMenu() {
-    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+    document.getElementById("firstNav").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
 }
+const x = document.getElementById("hamburgerBtn");
+x.onclick = toggleMenu;

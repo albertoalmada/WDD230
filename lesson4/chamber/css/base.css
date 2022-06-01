@@ -59,20 +59,6 @@ main {
     background-color: rgb(87, 227, 220);
 }
 
-footer {
-    display: flex;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    word-spacing: 10px;
-    background-color: #0D1B1E;
-    margin-top: 20px;
-    border-style: solid;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
 nav {
     line-height: 1rem;
     font-size: 1rem;
@@ -92,30 +78,54 @@ nav ul {
     margin: 1rem;
 }
 
-.navigation li:first-child {
-    display: block;
+nav button {
+    margin: 0.2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
 }
 
-.navigation li {
+nav {
+    background-color: #eee;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
     display: none;
 }
 
-.responsive li {
+nav ul.open {
     display: block;
 }
 
-li {
-    padding: 1em;
-}
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
 
-a:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #000000;
-}
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
 
 .central {
     display: grid;
@@ -192,3 +202,16 @@ a:visited {
     min-width: 130px;
 }
 
+footer {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    word-spacing: 10px;
+    background-color: #0D1B1E;
+    margin-top: 20px;
+    border-style: solid;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
