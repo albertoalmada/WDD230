@@ -1,6 +1,7 @@
-
-document.querySelector('#today').innerHTML = Date();
-
+const datefieldUK = document.querySelector(".today"); 
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 document.querySelector('#year').innerHTML = (new Date().getFullYear());
 document.querySelector('#lastUpdate').innerHTML = `Minersville Chamber of Commerce | Alberto Parreira Almada | 
