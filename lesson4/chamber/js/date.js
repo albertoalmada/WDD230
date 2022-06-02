@@ -1,4 +1,5 @@
-document.getElementById('today').innerHTML = Date();
+
+document.querySelector('#today').innerHTML = Date();
 
 
 document.querySelector('#year').innerHTML = (new Date().getFullYear());

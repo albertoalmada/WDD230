@@ -48,8 +48,4 @@ body header footer {
     grid-row: 3/4;
     border: solid;
 }
-
-.today {
-    background-color: gray;
-}
 }

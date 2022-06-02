@@ -209,10 +209,10 @@ nav ul.open {
 footer {
     display: flex;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    word-spacing: 10px;
+    font-size: 10px;
+   
     background-color: #0D1B1E;
-    margin-top: 20px;
+    
     border-style: solid;
     color: white;
     text-align: center;
