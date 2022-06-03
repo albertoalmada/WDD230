@@ -1,12 +1,7 @@
 @media only screen and (min-width: 1000px) {
     
     
-    .top_header {
-        display: grid;
-        grid-template-columns: 120px 1fr;
-        align-items: center;
-    }
-    
+       
     nav ul li a {
         padding: 1rem 1rem;
         align-items: center;
