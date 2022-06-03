@@ -1,15 +1,24 @@
-@media only screen and (min-width: 32.5em) {
-    body header footer {
-        min-width: 32.5em;
-    }
-    .navigation {
-        display: flex;
-    }
-    .navigation li :first-child {
+@media only screen and (min-width: 32.5rem) {
+    
+    
+    .top_header {
+        display: grid;
+        grid-template-columns: 120px 1fr;
+        }
+    
+    nav button {
         display: none;
     }
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
+    nav ul#firstNav{
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);;
     }
-}
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        
+    }
+      
+    
+    }
