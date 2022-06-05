@@ -6,6 +6,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
     min-width: 400px;
+    justify-content: center;
 }
 .top_header {
     display: grid;
@@ -65,10 +66,6 @@ h3 {
 p {
     font-size: 18px;
     padding: 10px;
-}
-
-img {
-    max-width: 97%;
 }
 
 main {
@@ -166,7 +163,7 @@ nav ul.open {
 }
 
 img {
-    width: 100%;
+    width: 98%;
 }
 .event {
     margin: 5px;
@@ -187,24 +184,17 @@ img {
     border: solid;
 }
 
-
-
 .spotlight1 {
     margin: 5px;
-    
     border: solid;
 }
 
 .spotlight2 {
     margin: 5px;
-   
     border: solid;
 }
-
 .spotlight3 {
     display: none;
-    margin: 5px;
-    border: solid;
 }
 
 .today{
@@ -214,7 +204,7 @@ img {
     margin: 10px;
     padding: 10px;
     background-color: rgb(87, 227, 220);
-    color:rgba(0, 0, 0, 0.5)
+    color:rgba(0, 0, 0, 0.5);
 }
 
 .logo {
@@ -225,11 +215,21 @@ img {
 footer {
     display: grid;
     font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
     background-color: #0D1B1E;
     border-style: solid;
     color: white;
     text-align: center;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
+.footer_data {
+    font-size: 0.9rem;
+    margin-top: -10px;
+}
+.footer_bottom{
+    border-top: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+    font-size: 0.8rem;
+    }
