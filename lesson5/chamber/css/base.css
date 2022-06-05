@@ -168,11 +168,21 @@ img {
 .event {
     margin: 5px;
     border: solid;
+    background-color: rgb(87, 227, 220);;
 }
+.events {
+    max-width: 120px;
+    margin: 1rem;
+    }
 
 .weather {
     margin: 5px;
     border: solid;
+    background-color: rgb(87, 227, 220);
+    line-height: 0%;
+}
+.weather_icon {
+    max-width: 120px;
 }
 
 .join {
@@ -182,17 +192,28 @@ img {
 .news {
     margin: 5px;
     border: solid;
+    background-color: rgb(87, 227, 220);
 }
 
 .spotlight1 {
     margin: 5px;
     border: solid;
+    background-color: rgb(87, 227, 220);
+}
+.oportunities {
+    max-width: 128px
 }
 
 .spotlight2 {
     margin: 5px;
     border: solid;
+    background-color: rgb(87, 227, 220);
+   
 }
+.parks {
+    max-width: 128px
+}
+
 .spotlight3 {
     display: none;
 }

@@ -47,7 +47,11 @@
         margin: 5px;
         grid-column: 1/4;
         grid-row: 4/5;
-        border: solid;
+        border: solid;       
+        background-color: rgb(87, 227, 220);
+        }
+    .joinus {
+    max-width: 128px
     }
     
     .event {

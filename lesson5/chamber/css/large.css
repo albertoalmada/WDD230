@@ -66,6 +66,16 @@
         grid-row: 3/4;
         border: solid;
             }
+    
+        .spotlight3 {
+            margin: 5px;
+            border: solid;
+            background-color: rgb(87, 227, 220);
+            
+        }
+        .wifi {
+            max-width: 128px
+        }
 
     .join {
         display: grid;
