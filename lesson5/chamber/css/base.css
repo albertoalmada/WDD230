@@ -275,9 +275,10 @@ footer {
     opacity: 0.9;
     margin: 1em 2em;
     text-align: center;
-    margin-top: -120px;
-    margin-left: -300px;
+    margin-top: -150px;
+    margin-left: -200px;
     padding: 50px;
+    position: relative;
         }  
   
   .action button {
