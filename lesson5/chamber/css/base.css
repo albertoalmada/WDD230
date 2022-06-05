@@ -270,3 +270,19 @@ footer {
     animation: none;
     text-align: center;
 }
+
+.action {
+    opacity: 0.9;
+    margin: 1em 2em;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: -300px;
+    padding: 50px;
+        }  
+  
+  .action button {
+    line-height: 1em;
+    width: 10em;
+    font-size: 0.8em;
+    opacity: 0.8;
+    }
