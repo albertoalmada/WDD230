@@ -6,7 +6,7 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
     min-width: 400px;
-    justify-content: center;
+    margin: 0 auto;
 }
 .top_header {
     display: grid;
