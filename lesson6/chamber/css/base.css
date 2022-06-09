@@ -183,6 +183,8 @@ img {
 }
 .weather_icon {
     max-width: 120px;
+    
+    padding: 10px;
 }
 
 .join {
