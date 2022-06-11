@@ -1,243 +1,294 @@
 body {
-    background-color: #e8dbc9;
-  
-    font-size: 18px;
-    color: #444;
-    font-family: "Merriweather Sans", sans-serif;
-    font-family: "Open Sans", sans-serif;
-    min-width: 400px;
-    margin: 0 auto;
-  }
-  .top_header {
-    display: grid;
-    grid-template-columns: 130px 1fr;
-  }
-  
-  .logo {
-    padding: 10px;
-    margin: 5px;
-    width: 120px;
-    height: auto;
-  }
-  
-  header {
-    display: block;
-    background-color: #0d1b1e;
-    margin: 0 auto;
-    border-style: solid;
-    color: #ffffff;
-    justify-content: space-between;
-    min-width: 400px;
-  }
-  
-  .social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin-left: 0.5rem;
-    justify-content: space-between;
-  }
-  
-  hr.rounded {
-    border-bottom: 3px solid black;
-    border-radius: 5px;
-  }
-  
-  h1 {
-    font-size: 30px;
-    word-spacing: 10px;
-    text-align: center;
-    justify-content: center;
-    text-shadow: 0.2em 0.2em 0.3em black;
-    padding: 10px;
-  }
-  
-  h2 {
-    font-size: 24px;
-    word-spacing: 10px;
-  }
-  
-  h3 {
-    font-size: 20px;
-    word-spacing: 10px;
-  }
-  
-  p {
-    font-size: 18px;
-    padding: 10px;
-  }
-  
-  main {
-    display: block;
-    border: solid;
-    margin: 10px;
-    padding: 5px 25px;
-    border-radius: 25px;
-    background-color: rgb(87, 227, 220);
-    min-width: 400px;
-  }
-  
-  nav {
-    line-height: 1rem;
-    font-size: 1rem;
-    background-color: #7798ab;
-    margin: 0 auto;
-    padding: 10px;
-    margin: 10px;
-    color: #ffffff;
-  }
-  
-  nav ul {
-    display: block;
-    list-style: none;
-    text-align: center;
-    text-decoration: none;
-    padding: 1rem;
-    margin: 1rem;
-  }
-  
-  nav button {
-    margin: 0.2rem 2vw;
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-    color: #555;
-  }
-  
-  nav {
-    background-color: #eee;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  nav ul li a {
-    display: block;
-    padding: 0.8rem 2vw;
-    text-decoration: none;
-    color: #333;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-  }
-  
-  nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
-  }
-  
-  nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-  nav ul {
-    display: none;
-  }
-  
-  nav ul.open {
-    display: block;
-  }
-  
-  #hamburgerBtn span:nth-child(1) {
-    display: block;
-  }
-  #hamburgerBtn span:nth-child(2) {
-    display: none;
-  }
-  
-  #hamburgerBtn.open span:nth-child(1) {
-    display: none;
-  }
-  #hamburgerBtn.open span:nth-child(2) {
-    display: block;
-  }
-  
-  .central {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: #c3cbc5;
-    color: #000000;
-    margin: 1rem auto;
-    padding: 1rem;
-    min-width: 360px;
-  }
-  
-  .hero {
-    margin: 5px;
-    width: 100%;
-  }
-  
-  img {
-    width: 98%;
-  }
-  .event {
-    margin: 5px;
-    border: solid;
-  }
-  
-  .weather {
-    margin: 5px;
-    border: solid;
-  }
-  
-  .join {
-    display: none;
-  }
-  
-  .news {
-    margin: 5px;
-    border: solid;
-  }
-  
-  .spotlight1 {
-    margin: 5px;
-    border: solid;
-  }
-  
-  .spotlight2 {
-    margin: 5px;
-    border: solid;
-  }
-  .spotlight3 {
-    display: none;
-  }
-  
-  .today {
-    padding: 1px;
-    margin: 5px;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(87, 227, 220);
-    color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .logo {
-    border-radius: 25px;
-    width: 120px;
-  }
-  
-  footer {
-    display: grid;
-    font-family: "Open Sans", sans-serif;
-    background-color: #0d1b1e;
-    border-style: solid;
-    color: white;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer_data {
-    font-size: 0.9rem;
-    margin-top: -10px;
-  }
-  .footer_bottom {
-    border-top: solid 1px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: -10px;
-    font-size: 0.8rem;
-  }
+  background-color: #e8dbc9;
+  font-size: 18px;
+  color: #444;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  min-width: 400px;
+  margin: 0 auto;
+}
+.top_header {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+}
+
+.logo {
+  padding: 10px;
+  margin: 5px;
+  width: 120px;
+  height: auto;
+}
+
+header {
+  display: block;
+  background-color: #0d1b1e;
+  margin: 0 auto;
+  border-style: solid;
+  color: #ffffff;
+  justify-content: space-between;
+  min-width: 400px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 0.5rem;
+  justify-content: space-between;
+}
+
+hr.rounded {
+  border-bottom: 3px solid black;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 30px;
+  word-spacing: 10px;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 0.2em 0.2em 0.3em black;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  word-spacing: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  word-spacing: 10px;
+}
+
+p {
+  font-size: 18px;
+  padding: 10px;
+}
+
+main {
+  display: block;
+  border: solid;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(87, 227, 220);
+  min-width: 400px;
+}
+
+nav {
+  line-height: 1rem;
+  font-size: 1rem;
+  background-color: #7798ab;
+  margin: 0 auto;
+  padding: 10px;
+  margin: 10px;
+  color: #ffffff;
+}
+
+nav ul {
+  display: block;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+}
+
+nav {
+  background-color: #eee;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+.central {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #c3cbc5;
+  color: #000000;
+  margin: 1rem auto;
+  padding: 1rem;
+  min-width: 360px;
+}
+
+.hero {
+  margin: 5px;
+  width: 100%;
+}
+
+img {
+  width: 98%;
+}
+.event {
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
+.events {
+  max-width: 120px;
+  margin: 1rem;
+}
+
+.weather {
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
+.weather_icon {
+  max-width: 120px;
+}
+
+.join {
+  display: none;
+}
+
+.news {
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
+
+.spotlight1 {
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
+.oportunities {
+  max-width: 128px;
+}
+
+.spotlight2 {
+  margin: 5px;
+  border: solid;
+  background-color: rgb(87, 227, 220);
+}
+.parks {
+  max-width: 128px;
+}
+
+.spotlight3 {
+  display: none;
+}
+
+.today {
+  padding: 1px;
+  margin: 5px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(87, 227, 220);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  border-radius: 25px;
+  width: 120px;
+}
+
+footer {
+  display: grid;
+  font-family: "Open Sans", sans-serif;
+  background-color: #0d1b1e;
+  border-style: solid;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.footer_data {
+  font-size: 0.9rem;
+  margin-top: -10px;
+}
+.footer_bottom {
+  border-top: solid 1px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -10px;
+  font-size: 0.8rem;
+}
+
+.chambermeeting {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 0%;
+  border: 1px solid;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.chambermeeting h2 {
+  animation: none;
+  text-align: center;
+}
+
+.action {
+  opacity: 0.9;
+  margin: 1em 2em;
+  text-align: center;
+  margin-top: -150px;
+  margin-left: -200px;
+  padding: 50px;
+  position: relative;
+}
+
+.action button {
+  line-height: 1em;
+  width: 10em;
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
   
