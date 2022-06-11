@@ -3,6 +3,8 @@ body {
     grid-template-columns: 1fr;
 	background-color: rgb(80, 185, 179);
     margin: 0 auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
