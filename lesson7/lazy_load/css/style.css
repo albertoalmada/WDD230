@@ -1,34 +1,30 @@
 body {
-	display: grid;
-    grid-template-columns: 1fr;
-	background-color: rgb(80, 185, 179);
-    margin: 0 auto;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(80, 185, 179);
+  margin: 0 auto;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-    font-size: 1.5rem;
-    font-family: Arial, sans-serif;
+  font-size: 1.5rem;
+  font-family: Arial, sans-serif;
 }
 
 main {
-	display: grid;
-    margin: 0 auto;
-	border: 1px solid black;
-	padding: 0.5rem;
-	background-color: rgb(6, 58, 54);
-	
-	color: white;
+  display: grid;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 0.5rem;
+  background-color: rgb(6, 58, 54);
+
+  color: white;
 }
 picture {
-    margin: 0 auto;
-    padding: 1rem;
-    
+  margin: 0 auto;
+  padding: 1rem;
 }
 footer {
-    margin: 0 auto;
+  margin: 0 auto;
 }
-
-

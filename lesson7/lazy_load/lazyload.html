@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="wdd 230 activity to pratice de lazy loading image concepts">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-       <title>Lazy Load Image</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="wdd 230 activity to pratice de lazy loading image concepts"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lazy Load Image</title>
+  </head>
 
-<body>
-<main>
-    <h1>Progressive Loading - Lazy Load Image</h1>
-    <picture>
-        <img src="https://picsum.photos/id/45/300/400" data-src="https://picsum.photos/id/45/300/400" alt="tuk tuk">
-    </picture>
-    <picture>
-        <img src="https://picsum.photos/id/250/300/400" data-scr="https://picsum.photos/id/250/300/400" alt="camera">
-    </picture>
-    <picture>
-        <img src="https://picsum.photos/id/1020/300/400" data-src="https://picsum.photos/id/1020/300/400"alt="bear">
-    </picture>
-    <picture>
-        <img src="https://picsum.photos/id/10/300/400" data-src="https://picsum.photos/id/10/300/400"alt="lake">
-    </picture>
-    <picture>
-        <img src="https://picsum.photos/id/5/300/400" data-src="https://picsum.photos/id/5/300/400" alt="notebook">
-    </picture>
-    <picture>
-        <img src="https://picsum.photos/id/311/300/400" data-src="https://picsum.photos/id/311/300/400" alt="window">
-    </picture>
-</main>    
-<footer>
-    <p>&copy; <span id="year"></span><span id="lastUpdate"></span></p>
-</footer>
-<script src="js/lazyload.js"></script>
-<script src="js/base.js"></script>
-</body>
+  <body>
+    <main>
+      <h1>Progressive Loading - Lazy Load Image</h1>
+      <picture>
+        <img
+          src="https://picsum.photos/id/45/300/400"
+          data-src="https://picsum.photos/id/45/300/400"
+          alt="tuk tuk"
+        />
+      </picture>
+      <picture>
+        <img
+          src="https://picsum.photos/id/250/300/400"
+          data-scr="https://picsum.photos/id/250/300/400"
+          alt="camera"
+        />
+      </picture>
+      <picture>
+        <img
+          src="https://picsum.photos/id/1020/300/400"
+          data-src="https://picsum.photos/id/1020/300/400"
+          alt="bear"
+        />
+      </picture>
+      <picture>
+        <img
+          src="https://picsum.photos/id/10/300/400"
+          data-src="https://picsum.photos/id/10/300/400"
+          alt="lake"
+        />
+      </picture>
+      <picture>
+        <img
+          src="https://picsum.photos/id/5/300/400"
+          data-src="https://picsum.photos/id/5/300/400"
+          alt="notebook"
+        />
+      </picture>
+      <picture>
+        <img
+          src="https://picsum.photos/id/311/300/400"
+          data-src="https://picsum.photos/id/311/300/400"
+          alt="window"
+        />
+      </picture>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span><span id="lastUpdate"></span></p>
+    </footer>
+    <script src="js/lazyload.js"></script>
+    <script src="js/base.js"></script>
+  </body>
 </html>
