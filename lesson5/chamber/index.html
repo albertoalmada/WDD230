@@ -1,121 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minersville Chamber of Commerce - Homepage - WDD230 - W#04</title>
-    <meta name="description" content="Website of Minersville Chamber of Commerce as project in WDD230 class BYU-I">
-    <link rel="chamber icon" href="images/chamber.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&display=swap " rel="stylesheet ">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-</head>
+    <meta
+      name="description"
+      content="Website of Minersville Chamber of Commerce as project in WDD230 class BYU-I"
+    />
+    <link rel="chamber icon" href="images/chamber.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&display=swap "
+      rel="stylesheet "
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="top_header">
-        <img class="logo" src="images/brand.png" alt="brand logo">
+      <div class="top_header">
+        <img class="logo" src="images/brand.png" alt="brand logo" />
         <h1>Minersville Chamber of Commerce</h1>
         <div class="social">
-        <a href="https://www.facebook.com"> <img src="images/facebook.png" alt="facebook icon"></a>
-        <a href="https://www.instagram.com"> <img src="images/instagram.png" alt="instagram icon"></a>
-        <a href="https://www.twitter.com"> <img src="images/twitter.png" alt="twitter icon"></a>
+          <a href="https://www.facebook.com">
+            <img src="images/facebook.png" alt="facebook icon"
+          /></a>
+          <a href="https://www.instagram.com">
+            <img src="images/instagram.png" alt="instagram icon"
+          /></a>
+          <a href="https://www.twitter.com">
+            <img src="images/twitter.png" alt="twitter icon"
+          /></a>
         </div>
+      </div>
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="firstNav">
+          <li>
+            <a target="_blank" href="index.html">Home</a>
+          </li>
+          <li class="active">
+            <a target="_blank" href="discover.html">Discover</a>
+          </li>
+          <li>
+            <a target="_blank" href="index.html">Directory</a>
+          </li>
+          <li>
+            <a target="_blank" href="join.html">Join</a>
+          </li>
+          <li>
+            <a target="_blank" href="index.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="today"></div>
+      <section id="chambermeeting">
+        <div>
+          <h2>
+            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+            p.m.
+          </h2>
+          <button id="closems">X</button>
         </div>
-        <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-            <ul id="firstNav">
-                <li>
-                  <a target="_blank" href="/wdd230/lesson6/chamber/index.html">Home</a>
-                </li>
-                <li class="active">
-                  <a target="_blank" href="../lesson7/discover.html">Discover</a>
-                </li>
-                <li>
-                  <a target="_blank" href="../lesson6/chamber/index.html"
-                    >Directory</a
-                  >
-                </li>
-                <li>
-                  <a target="_blank" href="../lesson8/join.html">Join</a>
-                </li>
-                <li>
-                  <a target="_blank" href="../lesson6/chamber/index.html">Contact</a>
-                </li>
-              </ul>
-        </nav>
-        <div class="today"></div>
-        <section id="chambermeeting">
-            <div>
-              <h2>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
-              <button id="closems">X</button>
-            </div>
-          </section>      
+      </section>
     </header>
-    
-    <main class="central">
-        <div class="hero">
-            <img src="images/minersville_pic.jpg" alt="Minersville picture">
-            <div class="action">
-                <form action="index.html" target="_blank">
-                  <button>Contact Us</button>
-                </form>
-              </div>     
-            <p>Now it's hour to join to Minersville Chamber of Commerce, and be part
-                of this great community. Together we can create an special and unique
-                place, to visit, to work, to live.</p>
-        </div>
-        <div class="event">
-            <img class="events" src="images/event.png" alt="calendar icon">
-            <p>Want to know more about our events, online or presencial? Both is better!!</p>
-        </div> 
-        <div class="weather">
-            <img class="weather_icon" src="images/weather.png" alt="weather icon">
-            <p>Weather conditions</p>
-            <p>33º C</p>
-            <p>Sunny</p>
-        </div>
-        <div class="join">
-            <img class="joinus" src="images/join.png" alt="join icon">
-            <p>Click here to join to our Chamber of Commerce</p>
-        </div>
-        <div class="news">
-            <p>News Release</p>
-            <p>The summer is next! How do you prefer to pass this time? With your
-                family, friends, or both? Enjoy our parks and recreation areas. Enjoy
-                our food and beverage options. Forgot some summer supplies? Don't
-                worry! You can purchase new items in our local stores. We can provide
-                anything for your summer.</P>
-        </div>
-        <div class="spotlight1">
-            <img class="oportunities" src="images/financial_oportunities.png" alt="public building icon">
-                <p>Look for our bussines and services</p>
-        </div>
-        <div class="spotlight2">
-            <img class="parks" src="images/parks_recreation.png" alt="park icon">
-                <p>Enjoy the nature and outdoor <br>activities.</p>
-        </div>
-        <div class="spotlight3">
-            <img class="wifi" src="images/wifi.png" alt="wifi icon">
-                <p>Click here and look where our free wifi is avaiable.</p>
-        </div>
 
+    <main class="central">
+      <div class="hero">
+        <img src="images/minersville_pic.jpg" alt="Minersville picture" />
+        <div class="action">
+          <form action="index.html" target="_blank">
+            <button>Contact Us</button>
+          </form>
+        </div>
+        <p>
+          Now it's hour to join to Minersville Chamber of Commerce, and be part
+          of this great community. Together we can create an special and unique
+          place, to visit, to work, to live.
+        </p>
+      </div>
+      <div class="event">
+        <img class="events" src="images/event.png" alt="calendar icon" />
+        <p>
+          Want to know more about our events, online or presencial? Both is
+          better!!
+        </p>
+      </div>
+      <div class="weather">
+        <img
+          class="weather_icon"
+          src="images/weather_converted.webp"
+          alt="weather icon"
+        />
+        <p>
+          Minersville Temperature: <span id="temperature">51.2</span> &#176;F
+        </p>
+        <p>Wind Speed: <span id="windspeed">4</span> mph</p>
+        <p>Wind Chill: <span id="windchill"> &#176;F</span></p>
+      </div>
+      <div class="join">
+        <img class="joinus" src="images/join.png" alt="join icon" />
+        <p>Click here to join to our Chamber of Commerce</p>
+      </div>
+      <div class="news">
+        <p>News Release</p>
+        <p>
+          The summer is next! How do you prefer to pass this time? With your
+          family, friends, or both? Enjoy our parks and recreation areas. Enjoy
+          our food and beverage options. Forgot some summer supplies? Don't
+          worry! You can purchase new items in our local stores. We can provide
+          anything for your summer.
+        </p>
+      </div>
+      <div class="spotlight1">
+        <img
+          class="oportunities"
+          src="images/financial_oportunities.png"
+          alt="public building icon"
+        />
+        <p>Look for our bussines and services</p>
+      </div>
+      <div class="spotlight2">
+        <img class="parks" src="images/parks_recreation.png" alt="park icon" />
+        <p>Enjoy the nature and outdoor <br />activities.</p>
+      </div>
+      <div class="spotlight3">
+        <img class="wifi" src="images/wifi.png" alt="wifi icon" />
+        <p>Click here and look where our free wifi is avaiable.</p>
+      </div>
     </main>
     <footer>
-        <div class="footer_top">
-            <img class="logo" src="images/brand.png" alt="brand logo">
-        </div>
-            <p class="footer_data">Minersville Chamber of Commerce<br>150, Main Street - Minersville, Utah<br>📌<a target="_blank" href="https://www.google.com/maps/place/Minersville,+UT+84752,+EUA/@38.2143538,-112.9382723,14.48z/data=!4m5!3m4!1s0x80b52390ce60a5a9:0xc65184f9f8484db5!8m2!3d38.2141363!4d-112.9235621">Location Map</a><br>chamber@minersville.org<br>+ 1 (801) 123-4567</p>
-            <p class="footer_bottom">&copy; <span id="year"></span> <span id="lastUpdate"></span>
-        </p>
+      <div class="footer_top">
+        <img class="logo" src="images/brand.png" alt="brand logo" />
+      </div>
+      <p class="footer_data">
+        Minersville Chamber of Commerce<br />150, Main Street - Minersville,
+        Utah<br />📌<a
+          target="_blank"
+          href="https://www.google.com/maps/place/Minersville,+UT+84752,+EUA/@38.2143538,-112.9382723,14.48z/data=!4m5!3m4!1s0x80b52390ce60a5a9:0xc65184f9f8484db5!8m2!3d38.2141363!4d-112.9235621"
+          >Location Map</a
+        ><br />chamber@minersville.org<br />+ 1 (801) 123-4567
+      </p>
+      <p class="footer_bottom">
+        &copy; <span id="year"></span> <span id="lastUpdate"></span>
+      </p>
     </footer>
-    <script src="js/date.js"></script>
-</body>
-
+    <script src="../../lesson7/lazy_load/js/lazyload.js"></script>
+    <script src="../../lesson6/chamber/js/date.js"></script>
+    <script src="../../lesson7/lazy_load/js/localStorage.js" defer></script>
+    <script src="js/windchill.js"></script>
+  </body>
 </html>
