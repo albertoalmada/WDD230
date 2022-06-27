@@ -1,0 +1,40 @@
+@media only screen and (min-width: 60em) {
+    html {
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid #acbabc;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        margin: auto;
+        max-width: 275px;
+        height: 300px;
+        box-shadow: 10px 10px 20px #48708a;
+    }
+
+    td,
+    th {
+        border: 1px solid #acbabc;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    tbody {
+        font-size: 95%;
+    }
+
+    tfoot {
+        font-size: 0.8em;
+        padding: 0.5em;
+        font-weight: bold;
+    }
+
+    footer {
+        font-weight: normal;
+    }
+
+}

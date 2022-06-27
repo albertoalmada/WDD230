@@ -1,0 +1,22 @@
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid #acbabc;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        margin: auto;
+        max-width: 275px;
+        height: 300px;
+        box-shadow: 10px 10px 20px #48708a;
+    }
+
+    tfoot {
+        font-size: 0.8em;
+        padding: 0.5em;
+        font-weight: bold;
+    }
+}
