@@ -3,7 +3,7 @@ const weatherIcon = document.querySelector("#weathericon");
 const captionDesc = document.querySelector("figcaption");
 
 const url =
-  "https://api.openweathermap.org/data/2.5/weather?q=SaoBernardodoCampo&units=metric&appid=9a7a792ce71b0657e7b7fb44bf7c2eca";
+  "https://api.openweathermap.org/data/2.5/weather?q=Santos&units=Metric&appid=88232e080a80b31fe80307b17e9130b1";
 
 async function apiFetch() {
   try {
