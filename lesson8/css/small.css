@@ -5,8 +5,8 @@ h1 {
 }
 
 body {
-    width: 80%;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
 html {
@@ -17,7 +17,7 @@ table {
     border-collapse: collapse;
     border: 1px solid #131414;
     letter-spacing: 0.8rem;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: auto;
     max-width: 280px;
     box-shadow: 10px 10px 20px #d19492;
@@ -27,6 +27,7 @@ td,
 th {
     border: 1px solid #f31818;
     padding: 0.5em;
+    color: white;
 }
 
 th {
@@ -37,7 +38,9 @@ th {
 }
 
 td {
-    text-align: center;
+    text-align: center
+   
+
 }
 
 tr:nth-child(even) td {
@@ -53,7 +56,7 @@ caption {
 }
 
 tbody {
-    font-size: 95%;
+    font-size: 100%;
 }
 
 .special {
