@@ -1,85 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 h1 {
-    text-align: center;
+  text-align: center;
+  text-size-adjust: 80%;
 }
 
 body {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
 html {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 table {
-    border-collapse: collapse;
-    border: 1px solid #131414;
-    letter-spacing: 0.8rem;
-    font-size: 0.8rem;
-    margin: auto;
-    max-width: 280px;
-    box-shadow: 10px 10px 20px #d19492;
+  border-collapse: collapse;
+  border: 1px solid #131414;
+  font-size: 0.6rem;
+  margin: auto;
+  max-width: 275px;
+  box-shadow: 10px 10px 20px #d19492;
 }
 
 td,
 th {
-    border: 1px solid #f31818;
-    padding: 0.5em;
-    color: white;
+  border: 1px solid #f31818;
+  padding: 0.5em;
+  color: white;
 }
 
 th {
-    background-color: #e96b6b;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    color: white;
+  background-color: #e96b6b;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
 }
 
 td {
-    text-align: center
-   
-
+  text-align: center;
 }
 
 tr:nth-child(even) td {
-    background-color: #c0a8a8;
+  background-color: #c0a8a8;
 }
 
 tr:nth-child(odd) td {
-    background-color: #995c5c;
+  background-color: #995c5c;
 }
 
 caption {
-    padding: 10px;
+  padding: 10px;
 }
 
 tbody {
-    font-size: 100%;
+  font-size: 100%;
 }
 
 .special {
-    font-style: italic;
+  font-style: italic;
 }
 
 #header,
 #footer {
-    background-color: #52bdb7;
+  background-color: #52bdb7;
 }
 
 #header {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 
 #currentGoal {
-    background-color: #628ca6;
-    color: white;
+  background-color: #628ca6;
+  color: white;
 }
 
 tfoot {
-    font-size: 0.8em;
-    padding: 0.5em;
-    font-weight: bold;
+  font-size: 0.8em;
+  padding: 0.5em;
+  font-weight: bold;
 }
