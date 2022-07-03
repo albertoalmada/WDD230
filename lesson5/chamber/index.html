@@ -42,10 +42,10 @@
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="firstNav">
-          <li>
+          <li class="active">
             <a target="_blank" href="index.html">Home</a>
           </li>
-          <li class="active">
+          <li>
             <a target="_blank" href="discover.html">Discover</a>
           </li>
           <li>
@@ -75,14 +75,14 @@
       <div class="hero">
         <img src="images/minersville_pic.jpg" alt="Minersville picture" />
         <div class="action">
-          <form action="index.html" target="_blank">
+          <form action="contact.html" target="_blank">
             <button>Contact Us</button>
           </form>
         </div>
         <p>
           Now it's hour to join to Minersville Chamber of Commerce, and be part
           of this great community. Together we can create an special and unique
-          place, to visit, to work, to live.
+          place, to visit, to work, to live. Here you find the informations to enjoy this city and all resources that we provide.
         </p>
       </div>
       <div class="event">
@@ -93,17 +93,18 @@
         </p>
       </div>
       <div class="weather">
-        <img
-          class="weather_icon"
-          src="images/weather_converted.webp"
-          alt="weather icon"
-        />
-        <p>
-          Minersville Temperature: <span id="temperature">51.2</span> &#176;F
-        </p>
-        <p>Wind Speed: <span id="windspeed">4</span> mph</p>
-        <p>Wind Chill: <span id="windchill"> &#176;F</span></p>
-      </div>
+        <p>Weather</p>
+        <div>
+          <p><span id="currtemp"></span>&#176;F</p>
+          <figure>
+            <span id="iconsrc"></span>
+            <img src="https://openweathermap.org/img/w/" alt="Weather Icon Picture" id="weather_icon"/><hr>
+            <figcaption></figcaption>
+          </figure>
+            <p>Wind Speed: <span id="windspeed"></span> mph</p><hr>
+            <p>Wind Chill: <span id="windchill"></span></p>
+          </div>
+        </div>
       <div class="join">
         <img class="joinus" src="images/join.png" alt="join icon" />
         <p>Click here to join to our Chamber of Commerce</p>
@@ -128,7 +129,7 @@
       </div>
       <div class="spotlight2">
         <img class="parks" src="images/parks_recreation.png" alt="park icon" />
-        <p>Enjoy the nature and outdoor <br />activities.</p>
+        <p>Enjoy the nature and outdoor activities.</p>
       </div>
       <div class="spotlight3">
         <img class="wifi" src="images/wifi.png" alt="wifi icon" />
@@ -149,7 +150,7 @@
       </p>
       <p class="footer_bottom">
         &copy; <span id="year"></span> <span id="lastUpdate"></span>
-      </p>
+      | <a target="_blank" href="http://www.openweathermap.org">openweathermap.org</a></p>
     </footer>
     <script src="../../lesson7/lazy_load/js/lazyload.js"></script>
     <script src="../../lesson6/chamber/js/date.js"></script>

@@ -1,17 +1,33 @@
-const temp = parseFloat(document.getElementById("temperature").textContent);
-const windspeed = parseFloat(document.getElementById("windspeed").textContent);
+const currentTemp = document.querySelector("#currtemp");
+const weatherIcon = document.querySelector("#weather_icon");
+const captionDesc = document.querySelector("figcaption");
+const windspeed = document.querySelector("#windspeed");
+const windchill = document.querySelector("#windchill");
 
-function wind(temperature, windspeed) {
-  document.getElementById("windchill").innerHTML = (
-    35.74 +
-    0.6215 * temperature -
-    35.75 * windspeed ** 0.16 +
-    0.4275 * temperature * windspeed ** 0.16
-  ).toFixed(1);
-}
+const url =
+  "//api.openweathermap.org/data/2.5/weather?q=Manderfield&units=imperial&appid=9a7a792ce71b0657e7b7fb44bf7c2eca";
+fetch(url)
+  .then((response) => response.json())
+  .then((data) => {
 
-if (temp <= 50 && windspeed > 3.0) {
-  wind(temp, windspeed);
-} else {
-  document.getElementById("windchill").innerHTML = "N/A";
-}
+  
+    currentTemp.innerHTML = `${data.main.temp.toFixed(0)}`;
+    windspeed.innerHTML = `${data.wind.speed}`;
+
+    
+    if ((data.main.temp <= 50) && (data.wind.speed > 3)) {
+    const chill = 35.74 + (0.6215 * currentTemp) - (35.75 * Math.pow(windspeed, .16)) + (0.4275 * currentTemp * Math.pow(windspeed, .16));
+    windchill.innerHTML = chill.toFixed(1);
+    } else {
+    windchill.innerHTML = "N/A";
+    }
+
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    const desc = data.weather[0].description;
+
+    weatherIcon.setAttribute("src", iconsrc);
+    weatherIcon.setAttribute("alt", desc);
+    captionDesc.innerHTML = desc;
+
+
+  });

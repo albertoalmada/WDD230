@@ -47,13 +47,13 @@
           <li>
             <a target="_blank" href="index.html">Home</a>
           </li>
-          <li class="active">
+          <li>
             <a target="_blank" href="discover.html">Discover</a>
           </li>
           <li>
             <a target="_blank" href="directory.html">Directory</a>
           </li>
-          <li>
+          <li class="active">
             <a target="_blank" href="join.html">Join</a>
           </li>
           <li>
@@ -72,150 +72,144 @@
         </div>
       </section>
     </header>
-    <main id="main_join">
-      <div>
-        <h2 id="join_head">Minersville Chamber of Commerce Membership Application</h2>
+    <main>
+      <div id="jointitle">
+        <h1>Minersville Chamber Application</h1>
       </div>
-      <form method="get" action="./thankyou.html">
-        <div id="membershipapp">
-          <div>
-            <fieldset class="information-form infoform">
-              <legend>Applicant Information</legend>
-              <label for="fname">First Name* </label>
-              <input type="text" id="fname" required>
-              <label for="lname"> Last Name* </label>
-              <input type="text" id="lname" required>
-              <label for="phone"> Cell Phone* </label>
-              <input type="tel" id="phone" placeholder="801-123-4567" required>
-              <label for="email"> Email* </label>
-              <input type="email" id="email" placeholder="user@email.com"
-                pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required>
-            </fieldset>
-  
-            <fieldset class="information-form bus-info">
-              <legend>Business Information</legend>
-              <label for="bname"> Business Name*</label>
-              <input type="text" id="bname" required>
-              <label for="busposition"> Business Position </label>
-              <input type="text" id="busposition" pattern="[A-Za-z\s-]{7,}">
-              <label for="busdescription"> Business Description </label>
-              <textarea name="textarea" id="busdescription">            </textarea>
-            </fieldset>
-  
-            <fieldset class=" information-form membership-form">
-              <legend>Membership Levels<em> (Choose one)</em></legend>
-  
-              <div class="selection">
-                <input type="radio" id="goldm" name="membership" class="membership" value="1" checked>
-                <label for="goldm">Gold Member</label>
-                <input type="radio" id="silvehomerm" name="membership" class="membership" value="2">
-                <label for="silvehomerm">Silver Member</label>
-                <input type="radio" id="bronzem" name="membership" class="membership" value="3">
-                <label for="bronzem">Bronze Member</label>
-                <input type="radio" id="np" name="membership" class="membership" value="4">
-                <label for="np">NP Member (Non-Profit)</label>
+      <div id="joinapp">
+        <form method="get" action="thankyou.html">
+          <fieldset>
+            <legend>Applicant Informations</legend>
+            <label class="top"
+              >First Name* <input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name* <input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Email*
+              <input
+                type="email"
+                name="email"
+                placeholder="youremail@gmail.com"
+                required
+            /></label>
+            <label class="top"
+              >Cell Phone Number* <input type="tel" name="phone" required
+            /></label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Business Type and Position</legend>
+            <label class="top"
+              >Business Name* <input type="text" name="bname" required
+            /></label>
+
+            <label class="top"
+              >Business Position Title <br />(Minimum of 7 characters, letters,
+              spaces, and hyphens only.)<input
+                type="text"
+                pattern="[a-zA-Z\s\-]{7,}"
+                name="title"
+            /></label>
+
+            <label class="top" for="content">Business Description</label>
+            <textarea name="textarea" id="content"></textarea>
+          </fieldset>
+
+          <fieldset>
+            <legend>Membership Levels</legend>
+            <label class="sbs"
+              ><input type="radio" name="NP Membership" /> NP Membership
+              (Non-Profit)</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="Bronze Membership" /> Bronze
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="Silver Membership" /> Silver
+              Membership</label
+            >
+            <label class="sbs"
+              ><input type="radio" name="Gold Membership" /> Gold
+              Membership</label
+            >
+            <button class="send" type="submit" value="submit">
+              Join Chamber
+            </button>
+          </fieldset>
+        </form>
+
+        <section id="memberlevels">
+          <div id="memberlevels2">
+            <div id="leveltitle">
+              <h2>Membership Benefits</h2>
+            </div>
+            <div class="memberinfo">
+              <div class="infobox">
+                <div>
+                  <h2>Nonprofit Membership</h2>
+                  <ul>
+                    <li>For nonprofit organizations and there is no fee.</li>
+                  </ul>
+                </div>
               </div>
-            </fieldset>
-  
+            </div>
+            <div class="memberinfo">
+              <div class="infobox">
+                <h2>Bronze Membership</h2>
+                <h3>$240 (Annual Investment)</h3>
+                <ul>
+                  <li>Free postings.</li>
+                  <li>
+                    Join leads and business development groups as well as other
+                    Chamber councils and committees.
+                  </li>
+                  <li>
+                    Weekly updates where we share information about new chamber
+                    programs, initiatives, festivals, networking events and
+                    advocacy efforts.
+                  </li>
+                  <li>Free and confidential business counseling.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="memberinfo">
+              <div class="infobox">
+                <h2>Silver Membership</h2>
+                <h3>$480 (Annual Investment)</h3>
+                <ul>
+                  <li>Include all benefits of Business Builder and more...</li>
+                  <li>
+                    Mini Campaign: WE will create a social media campaign for
+                    your business or organization. Pictures & copy will promote
+                    you, your product or service to the community via social
+                    media posts over 2 weeks.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="memberinfo">
+              <div class="infobox">
+                <h2>Gold Membership</h2>
+                <h3>$1,200 (Annual Investment)</h3>
+                <ul>
+                  <li>
+                    Includes all the benifits of our Bronze and Silver members
+                    and more...
+                  </li>
+                  <li>
+                    For more information about our Gold Membership please
+                    contact
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div id="detailedinformation">
-            <table id="joindetailtable">
-              <caption>Details on Membership Levels</caption>
-              <tbody>
-                <tr>
-                  <th scope="col" colspan="2">Gold Member</th>
-                </tr>
-                <tr>
-                  <th scope="col">Cost: </th>
-                  <th>$2 000 pa</th>
-                </tr>
-                <tr>
-                  <th scope="col" colspan="2">
-                    <ul>
-                      <li>Connections to Prospects, Suppliers, and More Great Networking Introductions</li>
-                      <li>Customized Research Consultations</li>
-                      <li>Member Services Consultation (10 hrs)</li>
-                      <li>Dedicated Member Services Representative</li>
-  
-                      <li>Plus everything below</li>
-                    </ul>
-                  </th>
-                </tr>
-  
-                <tr>
-                  <th scope="col" colspan="2">Silver Member</th>
-                </tr>
-                <tr>
-                  <th scope="col">Cost: </th>
-                  <th>$1 200 pa</th>
-                </tr>
-                <tr>
-                  <th scope="col" colspan="2">
-                    <ul>
-                      <li>Submit News, Event, and Press Release Submissions on our socal media</li>
-                      <li>Member Spotlight Feature</li>
-                      <li>Access to Customized Invite & Mailer Lists</li>
-                      <li>Member Services Consultation (5 hrs)</li>
-                      <li>Membership Lists Distributed Quarterly</li>
-                      <li>Plus everything below</li>
-                    </ul>
-                  </th>
-                </tr>
-  
-                <tr>
-                  <th scope="col" colspan="2">Bronze Member</th>
-                </tr>
-                <tr>
-                  <th scope="col">Cost: </th>
-                  <th>$800 pa</th>
-                </tr>
-                <tr>
-                  <th scope="col" colspan="2">
-                    <ul>
-                      <li>Share Thought Leadership and Member Insights on our socal media</li>
-                      <li>Access to the Media Guide</li>
-                      <li>Publicize Business Milestones</li>
-                      <li>Plus everything below</li>
-                    </ul>
-                  </th>
-                </tr>
-  
-                <tr>
-                  <th id="NPbucket" scope="col" colspan="2">NP Member (Non-Profit)</th>
-                </tr>
-                <tr>
-                  <th scope="col">Cost: </th>
-                  <th>Free</th>
-                </tr>
-                <tr>
-                  <th scope="col" colspan="2">
-                    <ul>
-                      <li>Discounted tickets to Chamber Events</li>
-                      <li>Heath Insurance • 401k • Workers' Compensation • Office Supplies • Energy and Operational
-                        Efficiency</li>
-                      <li>Ribbon Cutting • Promote Open House Events</li>
-                    </ul>
-                  </th>
-                </tr>
-  
-              </tbody>
-  
-              
-            </table>
-            <input type="submit" value="Submit Your Application" class="subappBtn">
-  
-  
-          </div>
-          <div>
-            <input type="submit" value="Submit Your Application" class="subappBtnsm">
-          </div>
-          <div>
-            <P>* These fields are required to be completed </P>
-  
-            <input class="hiddenDT" type="hidden" name="hiddenDT" value="">
-          </div>
-        </div>
-      </form>
+        </section>
+      </div>
     </main>
     <footer>
       <div class="footer_top">

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Minersville Chamber of Commerce - Homepage - WDD230 - Contact Page 
+      Minersville Chamber of Commerce - Homepage - WDD230 - Contact Page
     </title>
     <meta
       name="description"
@@ -44,21 +44,21 @@
       <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="firstNav">
-            <li>
-                <a target="_blank" href="index.html">Home</a>
-              </li>
-              <li class="active">
-                <a target="_blank" href="discover.html">Discover</a>
-              </li>
-              <li>
-                <a target="_blank" href="directory.html">Directory</a>
-              </li>
-              <li>
-                <a target="_blank" href="join.html">Join</a>
-              </li>
-              <li>
-                <a target="_blank" href="contact.html">Contact</a>
-              </li>
+          <li>
+            <a target="_blank" href="index.html">Home</a>
+          </li>
+          <li>
+            <a target="_blank" href="discover.html">Discover</a>
+          </li>
+          <li>
+            <a target="_blank" href="directory.html">Directory</a>
+          </li>
+          <li>
+            <a target="_blank" href="join.html">Join</a>
+          </li>
+          <li class="active">
+            <a target="_blank" href="contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
       <div class="today"></div>
@@ -72,7 +72,67 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <main class="contact">
+      <h1>Contact Information</h1>
+      <div class="contact-grid">
+        <h2>Location & Hours</h2>
+        <p><strong>150, Main Street - Minersville, UTAH - 84752</strong></p>
+        <p><strong>+1 (801) 123-4567</strong></p>
+        <p><strong>chamber@minerville.org</strong></p>
+        <p>Monday - Friday 9am - 5pm</p>
+
+        <h2>Chamber Contacts</h2>
+        <div>
+          <p><strong>Jacqueline Burton</strong></p>
+          <p>President</p>
+          <p>chamberpresident@minersville.org</p>
+          <hr />
+        </div>
+        <div>
+          <p><strong>Elizabeth Goldstein</strong></p>
+          <p>Vice President</p>
+          <p>chambervp@minersville.org</p>
+          <hr />
+        </div>
+        <div>
+          <p><strong>Tood Bruckmeier</strong></p>
+          <p>General Secretary</p>
+          <p>chambergs@minersville.org</p>
+        </div>
+      </div>
+
+      <div class="contact-img">
+        <picture><img src="images/minersville_pic.jpg" alt="Minersville picture"/>
+        </picture>
+      </div>
+
+      <form class="mem-info">
+        <fieldset>
+          <legend>Contact Information</legend>
+          <p>Are You A Member of the Minersville Chamber of Commerce?</p>
+          <label><input type="checkbox" name="member" value="Yes" />Yes</label>
+          <label><input type="checkbox" name="non-member" value="No" />No</label>
+          <br/>
+          <label>
+            Name* <br /><input type="text" name="fullname" required /></label
+          ><br />
+          <label>
+            Email*<br /><input type="email" name="email" required /> </label
+          ><br />
+          <label> Phone Number<br /><input type="tel" name="cell" /> </label
+          ><br />
+          <label> Company<br /><input type="text" name="company" /> </label
+          ><br />
+          <label> Address<br /><input type="text" name="address" /> </label
+          ><br />
+          <label>Comments/Questions</label>
+          <textarea name="textarea" id="content"></textarea>
+          <button class="send sndc" type="submit" value="submit">
+            Send Question or Comment
+          </button>
+        </fieldset>
+      </form>
+    </main>
     <footer>
       <div class="footer_top">
         <img class="logo" src="images/brand.webp" alt="brand logo" />

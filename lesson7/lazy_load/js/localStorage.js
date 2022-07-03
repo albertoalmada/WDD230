@@ -9,7 +9,7 @@ let dateslastVisits = Number(window.localStorage.getItem("lastvisited"));
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
 } else {
-	visitsDisplay.textContent = "Welcome this seems  to be your first visit!";
+	visitsDisplay.textContent = "Welcome this seems to be your first visit!";
 }
 if (dateslastVisits !== 0) {
   dateslastVisits =  parseInt(((((Date.now() - dateslastVisits)/1000)/60)/60)/24)

@@ -8,6 +8,10 @@
     border-left: 1px solid rgba(0, 0, 0, 0.3);
   }
 
+  #firstNav{
+    
+  }
+
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
@@ -93,5 +97,50 @@
     grid-row: 2/3;
     border: solid;
   }
+  /******************************************************/
+/********************DISCOVER PAGE*********************/
+
+
+
+/******************************************************/
+/******************************************************/
+/***********************JOIN PAGE**********************/
+
+/******form styling*******/
+form label.sbs {
+  padding: .4rem 0;
 }
+
+
+/******************************************************/
+/******************************************************/
+/******************DIRECTORY PAGE**********************/
+div.groups {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/****List Styling*****/
+
+
+/****Grid Styling*****/
+.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.groups.grid {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/******************CONTACT PAGE *******************/
+.contact-grid {
+  margin: 20px 250px;
+}
+
+
+
+
+}
+
+
   

@@ -1,0 +1,46 @@
+{
+  "directory": [
+    {
+      "logo": "icecream.webp",
+      "companyName": "Sugar Ice Cream",
+      "address": "800, Main St, Minersville, UT 84752",
+      "phoneNumber": "(801) 123-1097",
+      "website": "www.sugaricecream.com"
+    },
+    {
+      "logo": "desert.webp",
+      "companyName": "Desert Tours",
+      "address": "52 Scott Allen St, Minerville, UT 84752",
+      "phoneNumber": "(801) 123-1133",
+      "website": "www.deserttours.com"
+    },
+    {
+      "logo": "trekking.webp",
+      "companyName": "Bike & Trekking",
+      "address": "310 Brighan Young St, Minersville, UT 84752",
+      "phoneNumber": "(801) 123-7517",
+      "website": "www.biketrek.com"
+    },
+    {
+      "logo": "laundry.webp",
+      "companyName": "Miners Coin Laundry",
+      "address": "150 Brighan Young St, Minersville, UT 84752",
+      "phoneNumber": "(801) 123-6578",
+      "website": "www.minerslaundry.com"
+    },
+    {
+      "logo": "lodge.webp",
+      "companyName": "Best West Lodge",
+      "address": "20 Lake Rd, Minersville, UT 84752",
+      "phoneNumber": "(801) 123-5521",
+      "website": "www.bestwestlodge.com"
+    },
+    {
+      "logo": "bakery.webp",
+      "companyName": "Miners Muffins & Bakery",
+      "address": "304 Turner Ave, Mount Saratoga, UT 84045",
+      "phoneNumber": "(801) 123-6969",
+      "website": "www.minersbakery.com"
+    }
+  ]
+}
